@@ -1,0 +1,11 @@
+footer {
+    text-align: center;
+    padding: 70px 0 130px 0 ;
+}
+
+footer p.about{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    max-width: 640px;
+}
