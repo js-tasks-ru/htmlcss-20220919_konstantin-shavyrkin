@@ -1,10 +1,9 @@
 /* Стилизация кнопки */
 .button {
-    width: 182px;    
-    padding: 15px;
-    width: 182px;   
+    height: 48px;
+    padding: 15px 30px 14px;    
     border-radius: 8px;
-    border: 0px solid #ACB5BD;
+    border: none;
     background: #4263EB;
 
     font-family: 'Roboto';
@@ -20,10 +19,9 @@
     background: #2342C0;
  
 }
-.button:disabled{
-    background: #4263EB;
+.button:disabled{    
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none
 }
 
 
@@ -34,10 +32,6 @@
     background: #5028C6;
  
 }
-.button.button_secondary:disabled{
-    background: #7048E8;
-    opacity: 0.5;
-}
 
 .button.button_alternate {
     background: #FFFFFF;
@@ -47,8 +41,5 @@
 .button.button_alternate:hover{ 
     border: 1px solid #212429; 
 }
-.button.button_alternate:disabled{        
-    opacity: 0.5;
-    cursor: default;
-}
+
 
