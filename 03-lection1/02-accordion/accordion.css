@@ -1,1 +1,24 @@
-/* Стилизация аккордеона */
+.accordion {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 24px  32px;    
+}
+
+
+.accordion__summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.accordion__summary__icon{       
+    display: inline-block;
+    float: right;
+    width: 18px;
+    height: 8px;
+    background: url(../../assets/images/arow-up.svg);
+    background-size: 18px 8px;
+}
+
+.accordion[open] .accordion__summary__icon {
+    background: url(../../assets/images/arow-down.svg);
+}
