@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-.accordion__summary__icon{       
+.accordion__icon{       
     display: inline-block;
     float: right;
     width: 18px;
@@ -19,6 +19,6 @@
     background-size: 18px 8px;
 }
 
-.accordion[open] .accordion__summary__icon {
+.accordion[open] .accordion__icon {
     background: url(../../assets/images/arow-down.svg);
 }
