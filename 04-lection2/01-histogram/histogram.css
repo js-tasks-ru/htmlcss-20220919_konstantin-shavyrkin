@@ -1,0 +1,77 @@
+.histogram {
+    display: flex;  
+    flex-direction: column;
+    height: 185px;    
+    border-radius: 8px;  
+    padding: 16px 24px;
+    border: 1px solid #ACB5BD;
+}
+
+.histogram__head{
+    display: flex;    
+    flex-direction: row;
+}
+
+.histogram__total{
+    flex-grow: 1;
+}
+
+.histogram__title{
+    opacity: 0.8
+}
+
+.histogram__number{
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.histogram__viewAll{
+    justify-items: flex-end;
+    margin: 3px 0px;
+}
+.histogram__button > .linkViewButton{
+    font-size: 16px;  
+}
+
+.histogram__view{
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 1px;
+    align-items: flex-end;
+}
+.histogram__column{
+    background-color: var(--blue);
+    height: 100%;
+    flex-grow: 1;
+}
+
+
+/*Тут скорей всего через js будет 
+конкретное значение через style элемента задоваться.
+Но по БЭМ это модификатор, по этому так. 
+*/
+.histogram__column_50{
+    height: 50%;
+}
+
+.histogram__column_35{
+    height: 35%;
+}
+
+.histogram__column_22{
+    height: 22%;
+}
+
+.histogram__column_39{
+    height: 39%;
+}
+
+.histogram__column_11{
+    height: 11%;
+}
+.histogram__column_70{
+    height: 70%;
+}
