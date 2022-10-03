@@ -1,7 +1,6 @@
 .histogram {
     display: flex;  
-    flex-direction: column;
-    height: 185px;    
+    flex-direction: column;    
     border-radius: 8px;  
     padding: 16px 24px;
     border: 1px solid #ACB5BD;
@@ -29,7 +28,7 @@
     justify-items: flex-end;
     margin: 3px 0px;
 }
-.histogram__button > .linkViewButton{
+.histogram__button {
     font-size: 16px;  
 }
 
@@ -38,13 +37,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-grow: 1;
+    height: 50px;     
     gap: 1px;
     align-items: flex-end;
 }
-.histogram__column{
-    background-color: var(--blue);
-    height: 100%;
+.histogram__column {
+    background-color: var(--blue);    
     flex-grow: 1;
 }
 
@@ -53,6 +51,9 @@
 конкретное значение через style элемента задоваться.
 Но по БЭМ это модификатор, по этому так. 
 */
+.histogram__column_100{
+    height: 100%;
+}
 .histogram__column_50{
     height: 50%;
 }
