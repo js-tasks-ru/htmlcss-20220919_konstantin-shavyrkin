@@ -1,0 +1,11 @@
+.preview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 67px 0 ;
+    gap: 30px;
+}
+
+
+
