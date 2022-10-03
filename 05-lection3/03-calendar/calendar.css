@@ -1,8 +1,7 @@
 .calendar{
     border-radius: 8px;  
     padding: 26px;
-    border: 1px solid var(--grey-3);
-    width: 254px;
+    border: 1px solid var(--grey-3);    
     color: #334D6E;
    
 }
@@ -17,8 +16,10 @@
     display: grid;
     grid-template-columns: repeat(7, 36px);
     grid-template-rows: 42px repeat(5, 36px);
+    
     margin-top: 24px;
     line-height: 36px;
+    justify-content: space-between;
 }
 
 .calendar__weekday{
