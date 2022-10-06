@@ -1,6 +1,11 @@
 
+.accordion{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
 
-.accordion {
+.accordion__item {
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     padding: 24px  32px;    
