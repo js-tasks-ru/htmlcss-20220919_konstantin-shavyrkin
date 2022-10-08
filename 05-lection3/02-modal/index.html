@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./modal.css">
+    <title>Modal</title>
+    <style>
+        /* Что бы  удобней было делать задание*/
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="content_position_center">
+        <button id="modal-open" class="button">Open madal</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <div class="modal__title">
+                <span>Modal title</span>
+                <span class="modal__close"  id="modal-close">&times;</span>
+            </div>
+            <div class="modal__body">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
 </html>
