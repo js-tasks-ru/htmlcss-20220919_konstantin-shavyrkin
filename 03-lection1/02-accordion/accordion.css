@@ -1,1 +1,35 @@
-/* Стилизация аккордеона */
+
+.accordion{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.accordion__item {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 24px  32px;    
+    margin-top: 8px;
+}
+
+.accordion__item:first-child{
+    margin-top: 0px;
+}
+
+.accordion__summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.accordion__icon{           
+    margin-left: auto;
+    width: 18px;
+    height: 8px;
+    background: url(../../assets/images/arow-up.svg);
+    background-size: 18px 8px;
+}
+
+.accordion[open] .accordion__icon {
+    background: url(../../assets/images/arow-down.svg);
+}
